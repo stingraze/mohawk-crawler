@@ -1,6 +1,6 @@
 #!C:/Perl/bin/perl
 #COPYRIGHT Ppctweakies 2003-2019
-#Updated version for test (2019/4/16)
+#Updated version (10/1/2019)
 use Getopt::Std;
 use vars qw($opt_i $opt_r);
 
