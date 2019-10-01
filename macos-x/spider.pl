@@ -38,7 +38,7 @@ my $max_iterations = 4;
 my $max_db_size    = 100000;
 
 my @exclude_url_rules = ();
-my @include_url_rules = ('^http:\/\/.*$');
+my @include_url_rules = ('^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$');
 my @exclude_content_types_rules = ();
 my @include_content_types_rules = ('text\/html', 'text\/plain');
 my $page_max_size = 200000;
