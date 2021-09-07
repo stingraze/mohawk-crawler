@@ -1,6 +1,6 @@
 #Most code from: https://zenn.dev/shikumiya_hata/articles/b18e362e2eae09
 import sys
-import io
+#import io
 from janome.analyzer import Analyzer
 from janome.charfilter import UnicodeNormalizeCharFilter, RegexReplaceCharFilter
 from janome.tokenizer import Tokenizer as JanomeTokenizer  # sumyのTokenizerと名前が被るため
@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 
 import emoji
 import mojimoji
-sys.stdout = io.open(sys.stdout.fileno(), 'w', encoding='utf8')
+#sys.stdout = io.open(sys.stdout.fileno(), 'w', encoding='utf8')
 input1 = sys.argv[1]
 def preprocessing(text):
     text = re.sub(r'\n', '', text)
