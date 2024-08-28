@@ -9,5 +9,5 @@ Tested to work with Strawberry Perl on Windows. A different version works on Mac
 
 Contact me at tsubasa@inspiresearch.io
 
-Made with help of many programmers. I want to express thanks to them.
+Made with help of many programmers. I want to express my gratitutde to them.
 Mohawk Web Crawler, Open Sourced
